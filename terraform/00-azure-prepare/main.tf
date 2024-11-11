@@ -2,6 +2,8 @@
 terraform {
 
   # NOTE: No backend is defined here, as this is the very basic setup to be able to further on manage state files
+  #       The backend will be defined in the next project where the actual project infrastructure will be created.
+  #       This project's aim is to prepare everything necessary to be able to manage state files for the main project.
 
   required_providers {
     azurerm = {
